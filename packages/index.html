@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>uHost</title>
+    <link rel="shortcut icon" href="../favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="packages.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div>
+            <a href="../index.html" class="main-header__brand">
+                usHost
+            </a>
+        </div>
+        <nav class='main-nav'>
+            <ul class='main-nav__items'>
+                <li class='main-nav__item'>
+                    <a href="index.html" target="_self">Packages</a>
+                </li>
+                <li class='main-nav__item'>
+                    <a href="../customers/index.html">Customers</a>
+                </li>
+                <li class='main-nav__item main-nav__item--cta'>
+                    <a href="../start-hosting/index.html">Start Hosting</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class='plan__details' id="plus">
+            <a href="#">
+                <h1 class="plan__details__title">Our PLUS Plan</h1>
+                <h2 class="plan__details__description">The most popular choice of our customers.</h2>
+                <p class="plan__details__feature">Benefit from increased storage and faster support to ensure that your
+                    mission-critical data and applications are always available!</p>
+            </a>
+        </section>
+        <section class='plan__details' id="free">
+            <a href="#">
+                <h1 class="plan__details__title">Our FREE Plan</h1>
+                <h2 class="plan__details__description">An extremely solid start into our hosting world.</h2>
+                <p class="plan__details__feature">Get started immediately at zero cost!</p>
+            </a>
+        </section>
+        <!-- To fix the floating of the previous section to keep the space reserved for it and 
+            for any element coming after won't respect the old float  => 
+            now we can use FlexBox
+            can be good for images and texts to the content to flow around but not 
+            for block level elements -->
+        <div class="clearFix"></div>
+        <section class='plan__details' id="premium">
+            <a href="#">
+                <h1 class="plan__details__title">Our PREMIUM Plan</h1>
+                <h2 class="plan__details__description">All your enterprise needs. Instant support, guranteed uptime.
+                </h2>
+                <p class="plan__details__feature">The best solution for small to large enterprises. Because hosting
+                    shouldn't be in the way!</p>
+            </a>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <nav>
+            <ul class="main-footer__links">
+                <li class="main-footer__link">
+                    <a href="#">Support</a>
+                </li>
+                <li class="main-footer__link">
+                    <a href="#">Terms of Use</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
