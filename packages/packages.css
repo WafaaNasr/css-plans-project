@@ -1,6 +1,13 @@
 main {
     padding-top: 32px;;
 }
+.background {
+    background: url('../images/plans-background.jpg');
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
 .plan__details  {
     width: 80%;
     border: 4px solid #104213;
