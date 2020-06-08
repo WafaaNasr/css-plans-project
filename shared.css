@@ -11,7 +11,9 @@ body {
     position: fixed;
     background:  #2ddf5c;
     padding: 8px 16px;
-    z-index: 1;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
 }
 
 .main-nav__item{
