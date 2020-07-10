@@ -29,7 +29,8 @@
 }
 .plans__list {
     width: 80%;
-    margin: auto;
+    margin: auto; 
+    /*  for centering elements but it works only for block level elements with an explicitly assigned Width though */
     text-align: center;
 }
 
