@@ -12,6 +12,7 @@
     margin-top: 2.6rem;
     /* border: 2px dashed red; */
     position: relative; 
+    /* Even if using the position:relative we related the w&h to the viewport */
 }
 
 .section-title {
