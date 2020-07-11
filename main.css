@@ -120,3 +120,53 @@
     text-align: center;
     font-size: 1.2rem;
 }
+
+.modal{
+    position: fixed;
+    display: none;
+    z-index: 200;
+    background-color: white;
+    width: 40%;
+    height: 25%;
+    padding: 1rem ;
+    top: 20%;
+    left: 30%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);;
+}
+.modal__title{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.modal__actions{
+    text-align: center;
+}
+
+.modal__action{
+    background-color: #0e4f1f;
+    border: 1px solid #0e4f1f;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font: inherit;
+
+}
+
+.modal__action--negative{
+    background-color: red;
+    border-color:red;
+}
+
+.modal__action:hover ,
+.modal__action:active {
+  background: #2ddf5c;
+  border-color: #2ddf5c;
+}
+
+.modal__action--negative:hover,
+.modal__action--negative:active{
+    background: #ff5454;
+    border-color: #ff5454;
+}
