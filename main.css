@@ -135,11 +135,14 @@
     padding: 1.2rem;
 }
 
-.key-feature{
-    display: inline-block;
-    width: 30%;
-    text-align: center;
-    vertical-align: top;
+@media(min-width:40rem){
+    .key-feature{
+        display: inline-block;
+        width: 30%;
+        text-align: center;
+        max-width: 25rem;
+        vertical-align: top;
+    }
 }
 
 .key-feature__description {
