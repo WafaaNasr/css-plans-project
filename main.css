@@ -1,10 +1,10 @@
 
  #product-overview {
     background: linear-gradient(to top, rgba(80,68,18,0.6) 10%, transparent), 
-    url('images/freedom.jpg')  left 10% bottom 70%/cover   no-repeat border-box , #ff1b68;
+    url('images/freedom.jpg')  center/cover   no-repeat border-box , #ff1b68;
     /* background-size: cover;
     background-repeat: no-repeat;
-    background-position: left 10% bottom 20%/cover;
+    background-position: left 10% bottom 20%/cover;  or center
     background-origin: border-box;
     background-clip: border-box; */
     width: 100vw;
@@ -39,39 +39,42 @@
      font-size: 3rem;
     }
 }
-
-
-@media (min-width:60rem){
-    #product-overview{
-        height: 50vh;
-        background-position: 50% 25%;
-    }
-    #product-overview h1 {
-     font-size: 5rem;
-    }
-}
-
-
-.plans__list {
-    width: 80%;
-    margin: auto; 
-    /*  for centering elements but it works only for block level elements with an explicitly assigned Width though */
-    text-align: center;
-}
-
 .plan {
     background: #d5ffdc;
-    width: 30%;
+    width: 100%;
     padding: 1rem;
-    margin: 0.5rem;
-    display: inline-block;
-    vertical-align: middle;
+    margin: 0.5rem  0;
     text-align: center;
 }
 .plan--highlighted {
     background: #19b84c;
     color:white;
-    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+@media (min-width:40rem){
+    .plans__list {
+        width: 80%;
+        margin: auto; 
+        /*  for centering elements but it works only for block level elements with an explicitly assigned Width though */
+        text-align: center;
+    }
+    .plan {
+        background: #d5ffdc;
+        width: 30%;
+        padding: 1rem;
+        margin: 0.5rem;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        min-width: 13rem;
+        max-width: 25rem;
+    }
+  
+    .plan--highlighted{
+        background: #19b84c;
+        color:white;
+        box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    }
 }
 
 .plan__bagde{
