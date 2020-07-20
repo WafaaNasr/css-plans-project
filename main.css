@@ -32,7 +32,7 @@
 /* 
     using the portrait might be good idea if we don't target desktop mode bec. the W and H won't be longer equal
 @media (min-width:40rem) and (orientation: portrait){ */
-@media (min-width:40rem) and (min-height:60rem){
+@media (min-width:40rem) and (min-height:40rem){
 
     #product-overview{
         height: 40vh;

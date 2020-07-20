@@ -6,6 +6,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
+
+main{
+    min-height: calc(100vh - 3.5rem - 8rem);
+    margin-top:3.5rem;
+}
 .main-header{
     width: 100%;
     position: fixed;
@@ -36,13 +41,13 @@ body {
     color:#0e4f1f;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.3rem;
+    height: 2.5rem;
     display: inline-block;
     vertical-align: middle;
 }
 
 .main-header__brand img{
-    height: 2.5rem;
+    height: 100%;
 }
 
 .toggle-button{
