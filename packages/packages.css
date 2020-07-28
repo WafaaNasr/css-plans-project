@@ -1,4 +1,15 @@
 
+@font-face{
+    font-family: "AnonymousPro";
+    src:("anonymousPro-Regular");
+}
+
+@font-face{
+    font-family: "AnonymousPro";
+    src:("anonymousPro-Bold");
+    font-weight: 700;
+}
+
 .background {
     background: url('../images/plans-background.jpg') center/cover;
     filter: grayscale(40%);
@@ -78,7 +89,8 @@
     background: white;
     color:#243932;
     font-size: 1.2rem;
-    font-family: "Roboto", sans-serif;
+    font-family: "AnonymousPro","Roboto", sans-serif;
+    font-weight: 700;
 }
 
 @media (min-width:40rem){
