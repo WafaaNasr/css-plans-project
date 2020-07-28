@@ -99,8 +99,8 @@
     background: white;
     color:#243932;
     font-size: 1.2rem;
-    font-family: "AnonymousPro","Roboto", sans-serif;
-    font-weight: 700;
+    /*font: italic small-caps 700 1.2rem/2  "AnonymousPro","Roboto", sans-serif; */
+    /*font : font-style font-variant font-weight font-size/line-height font-family; */
 }
 
 @media (min-width:40rem){
