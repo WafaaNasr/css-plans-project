@@ -1,12 +1,22 @@
-
+/* Custom Font*/
 @font-face{
     font-family: "AnonymousPro";
-    src:("anonymousPro-Regular");
+    src:("anonymousPro-Regular.ttf") format("truetype"); 
+    /* tt= TureType format and open type format => the Woff if the web open format which is the compressed version of the font & Woff2 */
+    /* WOFF 2 fastest and has better performance but the browser comptability is not that perfect*/
+
+    /*
+        if we have different types of font format we could simply chain them here and start with the Woff2 
+
+      src:("anonymousPro-Regular.woff2") format("woff2"),
+          ("anonymousPro-Regular.woff") format("woff"),
+          ("anonymousPro-Regular.ttf") format("truetype"),
+    */
 }
-
+ 
 @font-face{
     font-family: "AnonymousPro";
-    src:("anonymousPro-Bold");
+    src:("anonymousPro-Bold.ttf") format("truetype");
     font-weight: 700;
 }
 
